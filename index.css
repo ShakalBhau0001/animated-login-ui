@@ -1,1 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
 
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#c7c3b9, #1093b4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.center-box {
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 3px 11px rgb(5, 7, 133);
+    border-radius: 11px;
+
+}
+
+.center-box .title {
+    font-size: 32px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgb(108, 177, 241);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.center-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.center-box .line {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+}
+
+.center-box .line input {
+    width: 100%;
+    padding: 0px 8px;
+    height: 42px;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.center-box .line label {
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    height: 40px;
+    width: 100%;
+    pointer-events: none;
+    font-size: 16px;
+    line-height: 16px;
+    transition: all 1s;
+}
+
+.center-box .line span::before {
+    position: absolute;
+    content: '';
+    top: 42px;
+    left: 0px;
+    height: 2px;
+    width: 0%;
+    pointer-events: none;
+    background-color: rgb(38, 131, 218);
+    transition: all 1s;
+}
+
+.center-box .line input:focus~label,
+.center-box .line input:valid~label {
+    top: -7px;
+    color: rgb(38, 131, 218);
+    font-size: 12px;
+    height: 12px;
+}
+
+.center-box .line input:focus~span::before,
+.center-box .line input:valid~span::before {
+    width: 100%;
+}
+
+.pass {
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: end;
+    color: #333;
+    cursor: pointer;
+    margin-top: -.75rem;
+}
+
+.pass:hover {
+    color: rgb(38, 131, 218);
+}
+
+.btn {
+    width: 100%;
+    height: 52px;
+    border: 2px solid rgb(38, 131, 218);
+    background-color: rgb(38, 131, 218);
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    border-radius: 9px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(6, 72, 134);
+}
+
+.signup {
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+.signup .link {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: rgb(38, 131, 218);
+    text-decoration: none;
+    transition: all .5s;
+    border-bottom: 1.5px solid transparent;
+    padding: 2px 0px;
+}
+
+.signup .link:hover {
+    color: rgb(6, 72, 134);
+    border-color: rgb(6, 72, 134);
+}
