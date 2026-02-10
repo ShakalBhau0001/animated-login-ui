@@ -112,6 +112,7 @@ Do not use this directly in production without proper backend and security handl
 ## 🪪 Author
 
 > **Shakal Bhau**
+
 > GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
 
 ---
