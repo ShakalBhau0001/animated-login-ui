@@ -14,7 +14,6 @@ animated-login-ui/
 │
 ├── index.html        # Login page markup
 ├── index.css         # Styling and animations
-│
 └── README.md         # Project documentation
 ```
 
@@ -111,8 +110,14 @@ Do not use this directly in production without proper backend and security handl
 
 ## 🪪 Author
 
-> **Shakal Bhau**
+> **Developer: Shakal Bhau**
 
-> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
+> **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
