@@ -12,6 +12,7 @@ It is created as a **UI/UX practice project** to strengthen form design skills a
 ```bash
 animated-login-ui/
 │
+├── assets/           # Screenshots
 ├── index.html        # Login page markup
 ├── index.css         # Styling and animations
 └── README.md         # Project documentation
@@ -105,6 +106,16 @@ No server, build tools, or dependencies are required.
 This project is created **for learning and frontend practice purposes only**.
 It demonstrates **UI/UX design concepts**, not real authentication or security mechanisms.
 Do not use this directly in production without proper backend and security handling.
+
+---
+
+## 📸 Preview
+
+### Login UI
+
+![Rich CLI Preview](assets/Login-UI-1.png)
+
+![Rich CLI Preview](assets/Login-UI-2.png)
 
 ---
 
